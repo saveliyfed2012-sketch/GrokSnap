@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="capture_to_grok"
+        android:enabled="true"
+        android:icon="@drawable/ic_camera"
+        android:shortcutShortLabel="@string/shortcut_capture"
+        android:shortcutLongLabel="@string/shortcut_capture">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="ru.groksnap"
+            android:targetClass="ru.groksnap.MainActivity" />
+    </shortcut>
+</shortcuts>
