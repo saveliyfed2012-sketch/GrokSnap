@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GrokSnap</string>
+    <string name="shortcut_capture">Сфотографировать и отправить в Grok</string>
+</resources>
